@@ -6,7 +6,7 @@ namespace Parcelamento
 	{
 		public static void Main (string[] args)
 		{
-			
+
 		/**
 		 * @author Lucas Colette <eu@colet.me>
 		 * @RA 212114030
