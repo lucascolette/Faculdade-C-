@@ -6,21 +6,22 @@ namespace Parcelamento
 	{
 		public static void Main (string[] args)
 		{
-			/**
-       * @author Lucas Colette <eu@colet.me>
-       * @RA 212114030
-       * 
-       * Um programa que simule o parcelamento em 3x de uma determinada conta
-       * 
-       * Qual o valor da conta ?
-       * => 3000
-       * 
-       * As 3 parcelas serão de:
-       * - 01 - 15/02/2012 - 1000
-       * - 02 - 15/03/2012 - 1000
-       * - 03 - 15/04/2012 - 1000
-       * 
-       */
+			
+		/**
+		 * @author Lucas Colette <eu@colet.me>
+		 * @RA 212114030
+		 * 
+		 * Um programa que simule o parcelamento em 3x de uma determinada conta
+		 * 
+		 * Qual o valor da conta ?
+		 * => 3000
+		 * 
+		 * As 3 parcelas serão de:
+		 * - 01 - 15/02/2012 - 1000
+		 * - 02 - 15/03/2012 - 1000
+		 * - 03 - 15/04/2012 - 1000
+		 * 
+		 */
 
 			Console.WriteLine("Qual o valor da conta ?");
 			decimal Valor = Convert.ToDecimal(Console.ReadLine());
