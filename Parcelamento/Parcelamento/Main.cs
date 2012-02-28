@@ -28,7 +28,7 @@ namespace Parcelamento
     decimal VlrParcela = Valor/3;
 
     DateTime Hoje = DateTime.Now;
-
+    
     Console.WriteLine("\nAs parcelas serão: \n");
     Console.WriteLine("01 - {0:d} - R$ "+VlrParcela.ToString("N2"), (Hoje.AddDays(30)).ToString("dd/MM/yyyy"));
     Console.WriteLine("02 - {0:d} - R$ "+VlrParcela.ToString("N2"), (Hoje.AddDays(60)).ToString("dd/MM/yyyy"));
